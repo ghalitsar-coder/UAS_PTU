@@ -1,6 +1,18 @@
-scikit-learn
-pandas
-numpy
-matplotlib
-seaborn
-jupyter
+# --- Core Machine Learning & Audio ---
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# --- Hugging Face Ecosystem (STT) ---
+transformers>=4.30.0
+datasets
+accelerate>=1.1.0
+
+# --- Audio Processing ---
+librosa
+soundfile
+
+# --- Text-to-Speech (TTS) ---
+supertonic
+
+# --- Frontend / UI ---
+gradio
