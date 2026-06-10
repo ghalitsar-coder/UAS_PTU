@@ -1,6 +1,7 @@
 # --- Core Machine Learning & Audio ---
 torch>=2.0.0
 torchaudio>=2.0.0
+torchcodec
 
 # --- Hugging Face Ecosystem (STT) ---
 transformers>=4.30.0
@@ -11,8 +12,17 @@ accelerate>=1.1.0
 librosa
 soundfile
 
+# --- Speaker Embeddings ---
+speechbrain
+
+# --- Training Logging ---
+tensorboard
+
 # --- Text-to-Speech (TTS) ---
 supertonic
+
+# --- Vocoder (Mel-Spectrogram to Audio) ---
+# HiFi-GAN vocoder sudah included dalam transformers>=4.30.0
 
 # --- Frontend / UI ---
 gradio

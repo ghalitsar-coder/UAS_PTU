@@ -1,3 +1,24 @@
-.venv
-stt-model-kustom
-stt-model-kustom-final
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Training checkpoints and logs
+stt-model-kustom/checkpoint-*/
+tts-model-kustom/checkpoint-*/
+tts-model-kustom/runs/
+*.log
+
+# Dataset (audio files)
+voice-dataset/
+*.wav
+*.npy
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large binary model files (adjust if you want to keep final models)
+*.safetensors
+*.pth
+*.bin
